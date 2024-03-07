@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/val-product-list/static/css/main.4e4cad9f.css",
+    "main.js": "/val-product-list/static/js/main.88815cbd.js",
+    "static/media/logo.svg": "/val-product-list/static/media/logo.ce842a10d9a1d4c9858b80edd5e6aa58.svg",
+    "index.html": "/val-product-list/index.html",
+    "main.4e4cad9f.css.map": "/val-product-list/static/css/main.4e4cad9f.css.map",
+    "main.88815cbd.js.map": "/val-product-list/static/js/main.88815cbd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e4cad9f.css",
+    "static/js/main.88815cbd.js"
+  ]
+}
