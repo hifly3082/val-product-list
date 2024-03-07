@@ -1,0 +1,7 @@
+.container {
+  padding: 2rem;
+  min-height: calc(100dvh - ((var(--header-height)) + (var(--footer-height))));
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: var(--clr-bg-100);
+}

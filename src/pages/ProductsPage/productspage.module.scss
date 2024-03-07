@@ -1,0 +1,20 @@
+.product_page {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.found_products {
+  font-size: var(--fs-100);
+  margin-bottom: 1rem;
+}
+
+.header {
+  margin-bottom: 1rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
