@@ -9,16 +9,13 @@
 - Если API возвращает дубли по id, то следует их считать одним товаром и выводить только первый, даже если другие поля различаются.
 - Если API возвращает ошибку, следует вывести идентификатор ошибки в консоль, если он есть, и повторить запрос.
 
-API: [http://api.valantis.store:40000/](http://api.valantis.store:40000/)
+API: [https://api.valantis.store:41000/](https://api.valantis.store:41000/)
 
 ### Технологии
 
 React 18.2 | Redux 9 | React Router 6 | antd 5
 
 ### Ограничения
-
-- Ошибка Mixed Content вызвана загрузкой небезопасного XMLHttpRequest endpoint по протоколу HTTP ('http://api.valantis.store:40000/'). Для устранения проблемы необходимо настроить сервер для поддержки контента по HTTPS.
-  Временное решение проблемы в рамках demo: разрешить небезопасный контент в настройках сайта.
 
 - Метод filter не принимает параметры limit и offset, в связи с чем реализация пагинации возможна только для всего списка продуктов (метод get_ids)
 
@@ -28,7 +25,7 @@ React 18.2 | Redux 9 | React Router 6 | antd 5
 2. Клонируйте репозиторий проекта и перейдите в корневой каталог проекта:
 
 ```bash
-git clone https://github.com/hifly3082/product-list.git
+git clone https://github.com/hifly3082/val-product-list.git
 cd product-list
 ```
 
